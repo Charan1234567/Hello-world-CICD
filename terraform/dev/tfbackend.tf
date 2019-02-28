@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
     bucket  = "terraformformac"
-    key     = "dev.json"
-    region  = "us-west-2"
+    key     = "tf/us-east-2/terraformformac-dev.json"
+    region  = "us-east-2"
     profile = "default"
   }
 }
