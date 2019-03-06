@@ -9,7 +9,7 @@ variable "environment" {
 
 #key pair name
 variable "key_name" {
-  default = "ansible"
+  default = "terraform"
 }
 
 variable "ssh_user" {
@@ -27,5 +27,5 @@ variable "instance_type_micro" {
 
 #Amazon Linux AMI
 variable "ami" {
-  default = "ami-00008213a83eba91a"
+  default = "ami-0b500ef59d8335eee"
 }
